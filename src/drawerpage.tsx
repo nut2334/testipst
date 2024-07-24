@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import "./drawerpage.css";
 
 const Drawerpage = () => {
   const drawerWidth = 240;
@@ -27,16 +27,7 @@ const Drawerpage = () => {
     >
       <Box>
         <Box padding="10px">
-          <img
-            style={{
-              width: "200px",
-              height: "auto",
-              borderRadius: "100%",
-              borderStyle: "solid",
-              borderColor: "white",
-            }}
-            src="profile.jpg"
-          />
+          <img className="profile" src="profile.jpg" />
         </Box>
         <center>
           <h3>นพ.ทดสอบ ระบบแพทย์</h3>
