@@ -5,3 +5,13 @@
   border-style: solid;
   border-color: white;
 }
+.circle.active {
+  background: #f1f1f1;
+}
+.circle {
+  border-radius: 100%;
+  background: #ffffff;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}

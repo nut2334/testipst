@@ -20,13 +20,7 @@ const Tabpage = () => {
         <button className="tabs">ขึ้นทะเบียน</button>
         <button className="tabs">ออกเอกสาร</button>
         <button className="tabs">แก้ไข</button>
-        <div
-          style={{
-            background: "#d9d9d9",
-            borderRadius: "0 10px 10px",
-            padding: "10px",
-          }}
-        >
+        <div className="background">
           <Tablepage />
         </div>
       </div>

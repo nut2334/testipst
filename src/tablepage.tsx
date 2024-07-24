@@ -49,49 +49,49 @@ const Tablepage = () => {
               width: "100%",
               backgroundColor: "#0d8cdb",
               color: "#ffffff",
-            }; // สีเทา
+            };
             break;
           case "พิจารณาเอกสาร":
             chipStyle = {
               width: "100%",
               backgroundColor: "#FFB302",
               color: "#ffffff",
-            }; // สีฟ้า
+            };
             break;
           case "ขึ้นทะเบียน":
             chipStyle = {
               width: "100%",
               backgroundColor: "#4ad300",
               color: "#ffffff",
-            }; // สีม่วง
+            };
             break;
           case "ออกเอกสาร":
             chipStyle = {
               width: "100%",
               backgroundColor: "#297500",
               color: "#ffffff",
-            }; // สีเขียว
+            };
             break;
           case "แก้ไข ครั้งที่ 1.1":
             chipStyle = {
               width: "100%",
               backgroundColor: "#FF3838",
               color: "#ffffff",
-            }; // สีเขียว
+            };
             break;
           case "แก้ไข ครั้งที่ 1.2":
             chipStyle = {
               width: "100%",
               backgroundColor: "#ad2424",
               color: "#ffffff",
-            }; // สีเขียว
+            };
             break;
           default:
             chipStyle = {
               width: "100%",
               backgroundColor: "#c33cd4",
               color: "#ffffff",
-            }; // สีเทา
+            };
         }
         return <Chip label={params.value} style={chipStyle} />;
       },

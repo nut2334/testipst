@@ -44,15 +44,7 @@ const Drawerpage = () => {
               <ListItemText
                 primary={
                   <div style={{ display: "flex", alignContent: "center" }}>
-                    <div
-                      style={{
-                        borderRadius: "100%",
-                        background: "#f1f1f1",
-                        height: "30px",
-                        width: "30px",
-                        marginRight: "10px",
-                      }}
-                    ></div>
+                    <div className="circle active"></div>
                     <Typography
                       sx={{
                         fontFamily: '"Kanit", sans-serif',
@@ -72,15 +64,7 @@ const Drawerpage = () => {
                 <ListItemText
                   primary={
                     <div style={{ display: "flex", alignContent: "center" }}>
-                      <div
-                        style={{
-                          borderRadius: "100%",
-                          background: "rgba(255,255,255,255)",
-                          height: "30px",
-                          width: "30px",
-                          marginRight: "10px",
-                        }}
-                      ></div>
+                      <div className="circle"></div>
                       <Typography
                         sx={{
                           fontFamily: '"Kanit", sans-serif',
