@@ -32,6 +32,7 @@ const Tablepage = () => {
       field: "status",
       headerName: "สถานะ",
       width: 200,
+      headerAlign: "center",
       renderCell: (params) => {
         let chipStyle;
 
